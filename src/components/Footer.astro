@@ -3,7 +3,11 @@ const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} Sabine Emden. All rights reserved.
+	<div class="copyright">&copy; {today.getFullYear()} Sabine Emden. All rights reserved.</div>
+	<div class="slash-links">
+		<a href="/colophon">Colophon</a>
+		<a href="/now">Now</a>
+	</div>
 	<div class="social-links">
 		<a href="https://github.com/SabineEmden" target="_blank">
 			<span class="sr-only">Go to Sabine's GitHub profile</span>
@@ -45,6 +49,12 @@ const today = new Date();
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
 		text-align: center;
+	}
+	.slash-links a{
+				color: rgb(var(--gray));
+	}
+.slash-links a:hover {
+		color: rgb(var(--gray-dark));
 	}
 	.social-links {
 		display: flex;
