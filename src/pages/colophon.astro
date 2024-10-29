@@ -1,15 +1,43 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import Layout from "../layouts/Note.astro";
 ---
 
 <Layout
-	title="Colophon"
-	description="Why and how I built my personal website, the tools and technologies I used, and the principles that govern the site."
-	pubDate={new Date('October 26 2024')}
-	heroImage="/blog-placeholder-1.jpg"
+  title="Colophon"
+  description="Why and how I build my personal website, the tools and technologies I use, and the principles that govern the site."
+  pubDate={new Date("October 26 2024")}
+  heroImage="/blog-placeholder-1.jpg"
 >
-	<p>
-		My personal website is my home on the web. It is build with Astro, based on the official Astro Blog template, and hosted on Netlify as a static site.
-	</p>
+  <p>
+    This website is powered by Astro, GitHub, and Netlify, and based on the
+    official <a href="https://astro.build/themes/details/blog/">Astro Blog</a> template.
+    I customized the template to my needs and made a few changes to improve responsiveness
+    and accessibility.
+  </p>
 
+  <p>
+    I replaced the blog posts with two content collections, one for notes and
+    one for articles. Notes are shorter than articles and less polished. My plan
+    is to grow the notes collection into a <a
+      href="https://maggieappleton.com/garden-history">digital garden</a
+    >. Articles are the kind of content I might share on LinkedIn.
+  </p>
+
+  <p>
+    Following web sustainability best practices, I decided limit the use of
+    decorative images and removed the hero images from notes and articles. I
+    still include images for sharing content on social media with <a
+      href="https://seosetups.com/blog/open-graph/">Open Graph</a
+    >.
+  </p>
+
+  <p>
+    The font family is <a href="https://www.brailleinstitute.org/freefont/"
+      >Atkinson Hyperlegible</a
+    >. It was developed by the Braille Institure of America to help low-vision
+    readers, is licensed under the <a href="https://openfontlicense.org/"
+      >Open Font License</a
+    >, and free for personal and commercial use. The font familiy came with the
+    Astro Blog template, as did the color palette and the SEO features.
+  </p>
 </Layout>
