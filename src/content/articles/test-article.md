@@ -1,5 +1,5 @@
 ---
-title: "First post"
+title: "Test Article"
 description: "Lorem ipsum dolor sit amet"
 pubDate: "Jul 08 2022"
 updatedDate: "Oct 22 2024"
