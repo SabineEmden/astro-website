@@ -19,16 +19,19 @@ const notes = (await getCollection("notes")).sort(
       main {
         width: 60rem;
       }
+      h1 {
+        margin-left: 1rem;
+      }
       ul {
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 1.5rem;
         list-style-type: none;
         margin: 0;
         padding: 0;
       }
       ul li {
-        width: calc(50% - 1rem);
+        width: calc(50% - 0.75rem);
       }
       ul li * {
         text-decoration: none;
