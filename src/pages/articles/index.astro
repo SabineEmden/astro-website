@@ -17,58 +17,53 @@ const articles = (await getCollection("articles")).sort(
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
     <style>
       main {
-        width: 960px;
+        width: 60rem;
+      }
+      h1 {
+        margin-left: 1rem;
       }
       ul {
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 1.5rem;
         list-style-type: none;
         margin: 0;
         padding: 0;
       }
       ul li {
-        width: calc(50% - 1rem);
+        width: calc(50% - 0.75rem);
       }
       ul li * {
         text-decoration: none;
         transition: 0.2s ease;
       }
-      ul li:first-child {
-        width: 100%;
-        margin-bottom: 1rem;
-        text-align: center;
-      }
-      ul li:first-child img {
-        width: 100%;
-      }
-      ul li:first-child .title {
-        font-size: 2.369rem;
-      }
-      ul li img {
-        margin-bottom: 0.5rem;
-        border-radius: 12px;
-      }
       ul li a {
         display: block;
+        box-sizing: border-box;
+        border: 2px solid var(--accent);
+        border-radius: 12px;
+        padding: 1rem;
       }
       .title {
-        margin: 0;
+        font-size: 1.953em;
         color: rgb(var(--black));
         line-height: 1;
+      }
+      .description {
+        color: rgb(var(--black));
       }
       .date {
         margin: 0;
         color: rgb(var(--gray));
       }
-      ul li a:hover h4,
-      ul li a:hover .date {
+      ul li a:hover h2,
+      ul li a:focus h2 {
         color: rgb(var(--accent));
       }
-      ul a:hover img {
+      ul a:hover {
         box-shadow: var(--box-shadow);
       }
-      @media (max-width: 720px) {
+      @media (max-width: 45rem) {
         ul {
           gap: 0.5em;
         }
@@ -76,40 +71,28 @@ const articles = (await getCollection("articles")).sort(
           width: 100%;
           text-align: center;
         }
-        ul li:first-child {
-          margin-bottom: 0;
-        }
-        ul li:first-child .title {
-          font-size: 1.563em;
-        }
       }
     </style>
   </head>
   <body>
     <Header />
     <main>
-      <section>
-        <ul>
-          {
-            articles.map((article) => (
-              <li>
-                <a href={`/articles/${article.slug}/`}>
-                  <img
-                    width={720}
-                    height={360}
-                    src={article.data.heroImage}
-                    alt=""
-                  />
-                  <h4 class="title">{article.data.title}</h4>
-                  <p class="date">
-                    <FormattedDate date={article.data.pubDate} />
-                  </p>
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </section>
+      <h1>Articles</h1>
+      <ul>
+        {
+          articles.map((article) => (
+            <li>
+              <a href={`/articles/${article.slug}/`}>
+                <h2 class="title">{article.data.title}</h2>
+                <p class="description">{article.data.description}</p>
+                <p class="date">
+                  Published: <FormattedDate date={article.data.pubDate} />
+                </p>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
     </main>
     <Footer />
   </body>
