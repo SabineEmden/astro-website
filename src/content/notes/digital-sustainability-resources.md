@@ -2,6 +2,7 @@
 title: "Digital Sustainability Resources for Web Developers"
 description: "Books, podcasts, newsletters, tools, and other resources on how to address the environmental impact of the web."
 pubDate: "Nov 01 2024"
+updatedDate: "Nov 08 2024"
 heroImage: "/blog-placeholder-1.jpg"
 ---
 
@@ -15,3 +16,7 @@ heroImage: "/blog-placeholder-1.jpg"
 - <cite>World Wide Waste</cite> by Gerry McGovern (2020). This book sits on my book shelf. I haven't read it yet.
 - <cite>The Carbon Footprint of Everything</cite> by Mike Berners-Lee (2022). This book also sits on my book shelf, and I haven't read it yet.
 - <cite>What If We Get It Right?</cite> by Ayana Elizabeth Johnson (2024). I started reading this book, but haven't finished it yet.
+
+## Podcasts
+
+- <cite>[Outrage + Optimism](https://www.outrageandoptimism.org/)</cite>, co-hosted by Christiana Figueres, Tom Rivett-Carnac, and Paul Dickinson. This podcast is a great way to keep up with the bigger picture of the climate crisis. It covers the latest news from science, business, finance, politics, and culture.
