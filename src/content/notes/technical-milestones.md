@@ -1,8 +1,7 @@
 ---
 title: "Technical Milestones to Assess Job Readiness"
 description: "A list of questions from the book You Belong in Tech by Anna McDougall to assess if I'm ready to start applying for jobs."
-pubDate: "Nov 11 2024"
-updatedDate: "Nov 08 2024"
+pubDate: "Nov 14 2024"
 heroImage: "/blog-placeholder-1.jpg"
 ---
 
