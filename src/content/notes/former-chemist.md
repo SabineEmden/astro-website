@@ -30,4 +30,4 @@ Working in chemistry labs, I learned to keep working on a problem even when it w
 
 As a chemist, I also learned to ask for help. If I got stuck on a problem, I would talk to other members of my research group and explain the issue to them. Their input would often help me find a solution.
 
-Now that I'm learning web development, I'm very fortunate to have communities where I can for help when I'm stuck on a problem.
+Now that I'm learning web development, I'm very fortunate to have communities where I can ask for help when I'm stuck on a problem.
