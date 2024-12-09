@@ -82,7 +82,7 @@ const articles = (await getCollection("articles")).sort(
         {
           articles.map((article) => (
             <li>
-              <a href={`/articles/${article.slug}/`}>
+              <a href={`/articles/${article.id}/`}>
                 <h2 class="title">{article.data.title}</h2>
                 <p class="description">{article.data.description}</p>
                 <p class="date">
