@@ -47,13 +47,17 @@ The Odin Project has a lesson on [Clean Code](https://www.theodinproject.com/les
 
 ### Have you used a CSS framework (eg Tailwind, Bootstrap, Material UI, etc)?
 
-**No, not yet.** The Odin Project has a lesson on frameworks and preprocessors in the <cite>Intermediate CSS Concepts</cite> section of the <cite>Intermediate HTML and CSS Course</cite>.
+**No, not yet.** The Odin Project has a [lesson on frameworks and preprocessors](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-frameworks-and-preprocessors) in the <cite>Intermediate CSS Concepts</cite> section of the <cite>Intermediate HTML and CSS Course</cite>. It advises against using CSS frameworks at this point in my learning journey and to focus on building a strong foundation in plain CSS instead.
+
+Frontend Mentor covers CSS frameworks as part of the learning path <cite>Advanced CSS techniques</cite>. I haven't reacheds that learning path yet.
 
 ### Can you send a GET request to an API and use the data it returns?
 
 ### Can you create a form and send the data in a POST request?
 
 ### Are you familiar with the basics of at least one front-end framework or library (eg Vue, React, Svelte, Angular, etc)?
+
+**No, not yet.**
 
 ## Back-end development
 
