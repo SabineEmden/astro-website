@@ -10,7 +10,7 @@ export async function GET(context) {
     items: articles.map((article) => ({
       ...article.data,
       // Compute RSS link from post `slug`
-      link: `/articles/${article.slug}/`,
+      link: `/articles/${article.id}/`,
     })),
   });
 }

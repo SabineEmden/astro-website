@@ -10,7 +10,7 @@ export async function GET(context) {
     items: notes.map((note) => ({
       ...note.data,
       // Compute RSS link from post `slug`
-      link: `/notes/${note.slug}/`,
+      link: `/notes/${note.id}/`,
     })),
   });
 }
