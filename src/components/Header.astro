@@ -65,7 +65,8 @@ import HeaderLink from "./HeaderLink.astro";
   }
   h2 {
     margin: 0;
-    font-size: 1em;
+    font-size: 1.2em;
+    line-height: 1;
   }
 
   h2 a,
@@ -75,7 +76,7 @@ import HeaderLink from "./HeaderLink.astro";
   nav {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     max-width: 65rem;
     margin: 0 auto;
@@ -93,6 +94,9 @@ import HeaderLink from "./HeaderLink.astro";
   .social-links,
   .social-links a {
     display: flex;
+  }
+  .social-links svg {
+    height: 1.2em;
   }
   @media (max-width: 45rem) {
     .social-links {
