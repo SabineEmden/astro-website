@@ -2,10 +2,11 @@
 title: "Small Web September 2025: Kick-off and Goals"
 description: "I take Small Web September as inspiration to work on my personal website and update its content. In this post, I share my goals for the monthlong event."
 pubDate: "Sep 4 2025"
+updatedDate: "Sep 5 2025"
 heroImage: "/blog-placeholder-1.jpg"
 ---
 
-On September 1st, I came across a [post](https://fandom.ink/@enchantedsleeper/115131021166817239) on Mastodon about Small Web September, a monthlong event encouraging participants to make progress on projects related to individual websites and small web services. It is hosted by [enchantedsleeper](https://enchantedsleeper.dreamwidth.org) in the [All Things Small Web](https://smallweb.dreamwidth.org/13854.html) community on Dreamwidth Studio. I take it as inspiration to work on my personal website during the month of September.
+I came across a [post](https://fandom.ink/@enchantedsleeper/115131021166817239) on Mastodon about Small Web September, a monthlong event encouraging participants to make progress on projects related to individual websites and small web services. It is hosted by [enchantedsleeper](https://enchantedsleeper.dreamwidth.org) in the [All Things Small Web](https://smallweb.dreamwidth.org/13854.html) community on Dreamwidth Studio. I take it as inspiration to work on my personal website during the month of September.
 
 I've neglected my website for the last ten months and haven't updated it since early December 2024. That needs to change!
 
@@ -15,10 +16,8 @@ My main goal is to feel confident about sharing links to my personal website and
 
 - [ ] Update the [index](../../) page:
   - [ ] Write new copy for About section
-  - [ ] Add list of five most recent articles
-  - [ ] Add list of features notes
+  - [ ] Add a list of five most recent articles
 - [ ] Update the [Now](../../now) page
-- [ ] Update the [Colophon](../../colophon) page
 - [ ] Publish at least two new articles:
   - [ ] Review of punch needle class at Sawtooth School for Visual Arts
   - [ ] TBD
