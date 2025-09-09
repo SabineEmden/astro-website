@@ -2,7 +2,7 @@
 title: "Small Web September 2025: Kick-off and Goals"
 description: "I take Small Web September as inspiration to work on my personal website and update its content. In this post, I share my goals for the monthlong event."
 pubDate: "Sep 4 2025"
-updatedDate: "Sep 5 2025"
+updatedDate: "Sep 8 2025"
 heroImage: "/blog-placeholder-1.jpg"
 ---
 
@@ -21,7 +21,7 @@ My main goal is to feel confident about sharing links to my personal website and
 - [ ] Publish at least two new articles:
   - [ ] Review of punch needle class at Sawtooth School for Visual Arts
   - [ ] TBD
-- [ ] Update note on [technical milestones](../technical-milestones)
+- [x] Update note on [technical milestones](../technical-milestones)
 - [ ] Publish monthly review for August 2025
 
 ## Discussion Prompts

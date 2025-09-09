@@ -1,13 +1,12 @@
 ---
-title: "Technical Milestones to Assess Job Readiness"
-description: "A list of questions from the book You Belong in Tech by Anna McDougall to assess if I'm ready to start applying for jobs."
+title: "Web Development Technical Milestones"
+description: "A list of questions from the book You Belong in Tech by Anna McDougall to track my progress in learning web development."
 pubDate: "Nov 14 2024"
+updatedDate: "Sep 8 2025"
 heroImage: "/blog-placeholder-1.jpg"
 ---
 
-In her book <cite>You Belong in Tech</cite>, Anna Jean McDougall provides a list of questions for aspiring web developers to assess if they are ready to start applying to junior positions and internships. I'm using this list here to track my job readiness.
-
-If you want to know what I'm working on right now, please see my [Now page](/now).
+In her book <cite>You Belong in Tech</cite>, Anna Jean McDougall provides a list of questions for aspiring web developers to assess if they are ready to start applying to junior positions and internships. I'm using this list here to track my progress in learning web development.
 
 ## General skills
 
@@ -45,9 +44,11 @@ The Odin Project covers the Single Responsibility Principle in a lesson on <cite
 
 **Yes, I can.** Flexbox and grid are both CSS layout methods. Flexbox positions items in a two-dimensional way, either in rows or in columns, and is best used for content-first designs where the layout follows the flow of the content. Grid places items three-dimensionally in rows and columns. It is best for layout-first designs where content is placed into a structured layout and its position is precisely controlled.
 
+For a project where I used flexbox and grid, see my GitHub repository for [The Odin Project | Admin dashboard](https://github.com/SabineEmden/odin-admin-dashboard).
+
 ### Have you used a CSS framework (eg Tailwind, Bootstrap, Material UI, etc)?
 
-**No, not yet.** The lesson <cite>Frameworks and Preprocessors</cite> in the <cite>Intermediate HTML and CSS Course</cite> of The Odin Project advises not to use CSS frameworks at this point in my learning journey and to focus on building a strong foundation in plain CSS instead. Frontend Mentor covers CSS frameworks as part of the learning path <cite>Advanced CSS Techniques</cite>. I haven't reached that learning path yet.
+**No, not yet.** The lesson <cite>Frameworks and Preprocessors</cite> in the <cite>Intermediate HTML and CSS Course</cite> of The Odin Project advises not to use CSS frameworks at this point in my learning journey and to focus on building a strong foundation in plain CSS instead. Frontend Mentor covers CSS frameworks and preprocessors as part of the learning path <cite>Advanced CSS Techniques</cite>. I haven't reached that learning path yet.
 
 ### Can you send a GET request to an API and use the data it returns?
 
@@ -71,7 +72,7 @@ For a project where I created a form, see my GitHub repository for [The Odin Pro
 
 ### Can you set up a connection to a database?
 
-**No, not yet.** The Odin Project has a lesson <cite>Using PostgreSQL</cite> in the <cite>Express</cite> section of the <cite>NodeJS Course</cite>. I haven't reach that course yet.
+**No, not yet.** The Odin Project has a <cite>Databases Course</cite> and a lesson <cite>Using PostgreSQL</cite> in the <cite>Express</cite> section of the <cite>NodeJS Course</cite>. I haven't reach these courses yet.
 
 ### Could you create a game in the console?
 
