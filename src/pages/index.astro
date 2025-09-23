@@ -3,12 +3,73 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import { getCollection } from "astro:content";
+import FormattedDate from "../components/FormattedDate.astro";
+
+// Content Fetching: List four most recent articles
+const articles = (await getCollection("articles")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+).slice(0, 2);
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      .subheading {
+        margin-top: 2.5rem;
+      }
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        list-style-type: none;
+        margin: 1rem -1rem;
+        padding: 0;
+      }
+      ul li {
+        width: calc(50% - 0.75rem);
+      }
+      ul li * {
+        text-decoration: none;
+        transition: 0.2s ease;
+      }
+      ul li a {
+        display: block;
+        box-sizing: border-box;
+        border: 2px solid var(--accent);
+        border-radius: 12px;
+        padding: 1rem;
+      }
+      .title {
+        font-size: 1.953em;
+        color: rgb(var(--black));
+        line-height: 1;
+      }
+      .description {
+        color: rgb(var(--black));
+      }
+      .date {
+        margin: 0;
+        color: rgb(var(--gray));
+      }
+      ul li a:hover h2,
+      ul li a:focus h2 {
+        color: rgb(var(--accent));
+      }
+      ul a:hover {
+        box-shadow: var(--box-shadow);
+      }
+      @media (max-width: 45rem) {
+        ul {
+          gap: 0.5em;
+        }
+        ul li {
+          width: 100%;
+          text-align: center;
+        }
+    </style>
   </head>
   <body>
     <Header />
@@ -19,7 +80,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
         <strong>Welcome to my home on the World Wide Web!</strong> This is my personal
         website, where I publish <a href="/notes/">notes</a> and <a
           href="/articles/">articles</a
-        > on a variety of topics that interest me. And it's a playground to practice
+        > on a variety of topics that interest me. It's also a playground to practice
         my <a href="/notes/technical-milestones/">web development skills</a>.
       </p>
 
@@ -30,6 +91,23 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
           >colophon</a
         >.
       </p>
+
+     <h2 class="subheading">Newest Articles</h2>
+      <ul>
+        {
+          articles.map((article) => (
+            <li>
+              <a href={`/articles/${article.id}/`}>
+                <h2 class="title">{article.data.title}</h2>
+                <p class="description">{article.data.description}</p>
+                <p class="date">
+                  Published: <FormattedDate date={article.data.pubDate} />
+                </p>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
     </main>
     <Footer />
   </body>
